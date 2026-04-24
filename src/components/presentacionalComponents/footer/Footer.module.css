@@ -1,0 +1,36 @@
+.footPage {
+  background-color: rgb(153, 209, 160);
+}
+
+
+.footerGrid {
+    position: relative;
+    justify-self: center;
+    margin: auto;
+    width: 80vw;
+  background-color: rgb(153, 209, 160);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;        
+  justify-items: center; 
+}
+
+.footerSection {
+  width: 100%;
+
+  background-color: rgb(153, 209, 160);
+  color: aliceblue;
+  padding: 20px; 
+}
+
+@media screen and (max-width: 1200px) {
+  .footerGrid {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footerGrid {
+    grid-template-columns: 1fr;
+  }
+}

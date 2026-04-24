@@ -1,0 +1,55 @@
+.aboutHeader {
+  width: 30vw;
+  display: block;
+  margin: auto;
+  font-weight: 400;
+}
+
+.aboutHeaderText {
+  width: 70vw;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 50vh;
+  margin: auto;
+  box-shadow: -20px -11px 162px -176px rgba(192, 196, 18, 0.41);
+  -webkit-box-shadow: -20px -11px 162px -176px rgba(192, 196, 18, 0.41);
+  -moz-box-shadow: -20px -11px 162px -176px rgba(192, 196, 18, 0.41);
+}
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.ourPage_card_effect {
+  transition: transform 0.5s ease !important;
+}
+
+.ourPage_card_effect:hover {
+  transform: scale(1.1) !important;
+}
+@media screen and (max-width: 1200px) {
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardStyle {
+    display: flex;
+    justify-content: center;
+    width: 100% !important;
+  }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .pageContainer{
+
+    height: 120vh;
+    margin-bottom: 3rem !important;
+  }
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+}

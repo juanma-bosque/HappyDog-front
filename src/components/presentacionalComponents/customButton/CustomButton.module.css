@@ -1,0 +1,12 @@
+
+.effect {
+   
+
+    transition: background-color 0.3s ease, color 0.3s ease !important; 
+  }
+  
+  .effect:hover {
+    background-color: rgb(186, 245, 225) !important;
+    color: rgb(243, 245, 247) !important;
+  }
+  

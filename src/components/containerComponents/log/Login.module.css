@@ -1,0 +1,8 @@
+.loginContainer{
+    height: 100vh;
+    margin-top: 5rem !important;
+  }
+
+form >input{
+    margin: 2em 0 !important;
+}

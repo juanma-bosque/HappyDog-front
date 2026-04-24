@@ -1,0 +1,15 @@
+.carouselMain {
+  padding-top: 10%;
+  height: 100vh;
+  background-color: hsl(160, 18%, 93%);
+  box-shadow: 10px 10px 202px -1px rgba(127, 235, 199, 0.75);
+  -webkit-box-shadow: 10px 10px 202px -1px rgba(127, 235, 199, 0.75);
+  -moz-box-shadow: 10px 10px 202px -1px rgba(127, 235, 199, 0.75);
+}
+
+@media screen and (max-width: 650px) {
+  .carouselMain {
+    height: 85vh;
+    padding-top: 20% !important;
+  }
+}
